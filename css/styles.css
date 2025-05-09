@@ -2,7 +2,6 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background: #fff;
-    margin: 0;
 }
 
 h1,h2,h3 {
@@ -41,7 +40,6 @@ a:focus {
 .portfolio-title {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42; }
@@ -49,17 +47,11 @@ a:focus {
 
 .portfolio-list {
     list-style: none;
-     padding: 0;
-    margin: 0;
 }
 
 .portfolio-item {
-    border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px 0px;
-        width: 264px;
-        height: 380px;
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-            background: #fff;
+    
+    background: #fff;
 }
 
 .portfolio-subtitle {
@@ -145,7 +137,6 @@ a:focus {
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
 }
@@ -155,17 +146,17 @@ a:focus {
 
 .features-list {
     list-style: none;
-    margin: 0;
-    padding: 0; 
-}
 
+}
 .feature-title {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
 .feature-text {
@@ -197,7 +188,6 @@ a:focus {
 .team-title {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
@@ -205,16 +195,11 @@ a:focus {
 
 .team-list {
     list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    gap: 24px;
 }
 
 .team-item {
     background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
+    
 }
 
 .team-subtitle {
