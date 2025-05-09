@@ -175,7 +175,7 @@ a:focus {
     color: #434455; 
 }
 
-.feature-item {
+.features-item {
     background-color: #ffffff; 
     font-weight: 500;
     font-size: 20px;
@@ -215,15 +215,6 @@ a:focus {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
-}
-
-.portfolio-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
 }
 
 .team-subtitle {
