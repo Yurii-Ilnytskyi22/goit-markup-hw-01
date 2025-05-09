@@ -42,7 +42,9 @@ a:focus {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42; }
+    color: #2e2f42;
+    text-align: center;
+}
 
 
 .portfolio-list {
@@ -139,6 +141,7 @@ a:focus {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
+    text-align: center;
 }
 
 .features-section {
@@ -191,6 +194,7 @@ a:focus {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    text-align: center;
 }
 
 .team-list {
