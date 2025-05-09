@@ -1,0 +1,77 @@
+body {
+    font-family: "Roboto","Raleway", sans-serif;
+    color: #2e2f42;
+    background: #fff;
+    margin: 0;
+}
+
+h1,h2,h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400,500,700 ;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 1.0;
+    
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+a {
+    color: #2e2f42;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #404bbf;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-list {
+    display: flex;
+    gap: 20px;
+}
+
+.portfolio-blank {
+    text-align: left;
+}
+
+.portfolio-payment {
+    text-align: center;
+}
+
+.portfolio-meditation {
+    text-align: right;
+    
+}
+
+.portfolio-taxi {
+    text-align: left;
+}
+
+.portfolio-ilst {
+    text-align: center;
+}
+
+.portfolio-course {
+    text-align: right;
+}
+
+button {
+    cursor: pointer;
+}
