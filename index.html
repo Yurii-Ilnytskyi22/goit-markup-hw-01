@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
      <link rel="stylesheet" href="./css/styles.css">
      <title>WebStudio</title>
@@ -18,21 +20,22 @@
 <header>
     
     <nav>
-    <a href="./index.html">WebStudio</a> 
+    <a href="./index.html" class="logo-link">
+        Web<span class="logo-span">Studio</span></a> 
     <ul>
-    <li><a href="#studio">Studio</a></li>
-    <li><a href="#portfolio">Portfolio</a></li>
-    <li><a href="#contacts">Contacts</a></li>
+    <li><a href="./index.html" class="nav-link">Studio</a></li>
+    <li><a href="./index.html" class="nav-link">Portfolio</a></li>
+    <li><a href="./index.html" class="nav-link">Contacts</a></li>
     </ul>
     </nav>
 
-    <address>
-    <ul>
+    <address class="address-info">
+    <ul class="contact-list">
     <li>
-    <a href="mailto:info@devstudio.com" class="email">info@devstudio.com</a>
+    <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
     </li>
     <li>
-    <a href="tel:+110001111111" class="number">+11 (000) 111-11-11</a>
+    <a href="tel:+110001111111" class="contact-link">+11 (000) 111-11-11</a>
     </li>
     </ul>
     </address>
@@ -40,113 +43,112 @@
     
 </header>
 <main>
- <section>
-    <h1>Effective Solutions for Your Business</h1>
-    <button type="button">Order Service</button>
+ <section class="hero-section">
+    <h1 class="hero-title">Effective Solutions for Your Business</h1>
+    <button type="button" class="hero-button">Order Service</button>
         
  </section>
-<section>
-    <h2>Maine Text</h2>
-    <ul>
-     <li>
-    <h3>Strategy</h3>
-    <p>Our goal is to identify the business
+<section class="features-section">
+    <h2 class="visually-hidden">Maine Text</h2>
+    <ul class="features-list">
+     <li class="features-item">
+    <h3 class="feature-title">Strategy</h3>
+    <p class="feature-text">Our goal is to identify the business
     problem to walk away with the perfect and creative solution.</p>
      </li>
-     <li>
-    <h3>Punctuality</h3>
-    <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+     <li class="features-item">
+    <h3 class="feature-title">Punctuality</h3>
+    <p class="feature-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
      </li>
-     <li>
-    <h3>Diligence</h3>
-    <p>Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
+     <li class="features-item">
+    <h3 class="feature-title">Diligence</h3>
+    <p class="feature-text">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
      </li>
-     <li>
-    <h3>Technologies</h3>
-    <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+     <li class="features-item">
+    <h3 class="feature-title">Technologies</h3>
+    <p class="feature-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
      </li>
     </ul>
 </section>
-<section id="studio">
-    <h2>Our Team</h2>
+<section class="team-section">
+    <h2 class="team-title">Our Team</h2>
     
-    <ul>
-    <li>
+    <ul class="team-list">
+    <li class="team-item">
         <img src="./images/img-3.jpg" width="264" height="260" alt="mark-img">
-        <h3>Mark Guerrero</h3>
-        <p>Product Designer</p>
+        <h3 class="team-subtitle">Mark Guerrero</h3>
+        <p class="team-description">Product Designer</p>
     </li>
     
-    <li>
+    <li class="team-item">
         <img src="./images/img-2.jpg" width="264" height="260" alt="tom-img">
-        <h3>Tom Ford</h3>
-        <p>Frontend Developer</p>
+        <h3 class="team-subtitle">Tom Ford</h3>
+        <p class="team-description">Frontend Developer</p>
     </li>
    
     
-    <li> 
+    <li class="team-item"> 
         <img src="./images/img-1.jpg" width="264" height="260" alt="camila-img">
-        <h3>Camila Garcia</h3>
-        <p>Marketing</p>
+        <h3 class="team-subtitle">Camila Garcia</h3>
+        <p class="team-description">Marketing</p>
     </li>
     
     
-    <li>
+    <li class="team-item">
         <img src="./images/img.jpg" width="264" height="260" alt="daniel-img">
-        <h3>Daniel Wilson</h3>
-        <p>UI Designer</p>
+        <h3 class="team-subtitle">Daniel Wilson</h3>
+        <p class="team-description">UI Designer</p>
 
     </li>
     </ul>
 </section>
 
-<section id="portfolio">
-    <h2>Our Portfolio</h2>
+<section class="portfolio-section" >
+    <h2 class="portfolio-title">Our Portfolio</h2>
     <ul class="portfolio-list">
-        <li class="portfolio-blank">
+        <li class="portfolio-item">
             <img src="./images/blankup.jpg" width="360"
             height="300" alt="app-blanking">
-            <h3>Banking App</h3>
-            <p>App</p>
+            <h3 class="portfolio-subtitle">Banking App</h3>
+            <p class="portfolio-description">App</p>
         </li>
-        <li class="portfolio-payment">
+        <li class="portfolio-item">
             <img src="./images/phone.jpg" width="360"
             height="300" alt="payment">
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-subtitle">Cashless Payment</h3>
+            <p class="portfolio-description">Marketing</p>
         </li>
-        <li class="portfolio-meditation">
+        <li class="portfolio-item">
             <img src="./images/laptop.jpg" width="360"
             height="300" alt="meditation">
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="portfolio-subtitle">Meditation App</h3>
+            <p class="portfolio-description">App</p>
         </li>
-    </ul>
-    <ul class="portfolio-list">
-        <li class="portfolio-taxi">
+        <li class="portfolio-item">
             <img src="./images/driver.jpg" width="360"
             height="300" alt="service">
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-subtitle">Taxi Service</h3>
+            <p class="portfolio-description">Marketing</p>
         </li>
-        <li class="portfolio-ilst">
+        <li class="portfolio-item">
             <img src="./images/phone.jpg" width="360"
             height="300" alt="illustrations">
-            <h3>Screen Illustrations</h3>
-            <p>Desing</p>
+            <h3 class="portfolio-subtitle">Screen Illustrations</h3>
+            <p class="portfolio-description">Desing</p>
         </li>
-        <li class="portfolio-course">
+        <li class="portfolio-item">
             <img src="./images/girl.jpg" width="360"
             height="300" alt="courses">
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-subtitle">Online Courses</h3>
+            <p class="portfolio-description">Marketing</p>
         </li>
     </ul>
 </section>
 </main>
-<footer id="contacts">
-    <a href="./index.html">WebStudio</a>
-    <p class="pai-itm">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+<footer class="footer">
+    <a href="./index.html" class="footer-logo">
+        Web<span class="footer-logo-span">Studio</span></a>
+    <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
 </footer>
 </body>
 </html>
