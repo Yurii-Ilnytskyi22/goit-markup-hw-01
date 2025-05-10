@@ -2,39 +2,21 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background: #fff;
-}
-
-h1,h2,h3 {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-weight: 500;
     font-weight: 700;
 }
 
-h1 {
-    font-size: 56px;
-    line-height: 1.0;
-    
-}
-
-h2 {
-    font-size: 36px;
-    line-height: 1.1;
-}
-
-h3 {
-    font-size: 20px;
-    line-height: 1.2;
+ul {
+    list-style: none;
 }
 
 a {
-    color: #2e2f42;
     text-decoration: none;
 }
 
-a:hover,
-a:focus {
-    color: #404bbf;
+.visually-hidden {
+    background: #fff;
 }
 
 .portfolio-title {
@@ -42,7 +24,7 @@ a:focus {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: #fff;
     text-align: center;
 }
 
@@ -52,7 +34,7 @@ a:focus {
 }
 
 .portfolio-item {
-    
+
     background: #fff;
 }
 
@@ -61,14 +43,15 @@ a:focus {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #fff;
 }
 
 .portfolio-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455; }
+    color: #fff;
+}
 
 .hero-button {
     background-color: #4d5ae5;
@@ -87,7 +70,7 @@ a:focus {
 }
 
 .logo-link {
-    font-family: "Raleway", sans-serif ;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -112,11 +95,11 @@ a:focus {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #404bbf; 
+    color: #404bbf;
 }
 
 .address-info {
-    font-style: normal; 
+    font-style: normal;
 }
 
 .contact-link {
@@ -129,7 +112,7 @@ a:focus {
 
 .contact-link:hover,
 .contact-link:focus {
-    color: #404bbf; 
+    color: #404bbf;
 }
 
 .hero-section {
@@ -144,13 +127,13 @@ a:focus {
     text-align: center;
 }
 
-.features-section {
-    background-color: #f4f4fd; }
+
 
 .features-list {
     list-style: none;
 
 }
+
 .feature-title {
     font-size: 36px;
     line-height: 1.11;
@@ -166,11 +149,11 @@ a:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455; 
+    color: #434455;
 }
 
 .features-item {
-    background-color: #ffffff; 
+    background-color: #ffffff;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -181,11 +164,11 @@ a:focus {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42; 
+    color: #2e2f42;
 }
 
 .team-section {
-    background-color: #f4f4fd; 
+    background-color: #f4f4fd;
 }
 
 .team-title {
@@ -203,7 +186,7 @@ a:focus {
 
 .team-item {
     background-color: #ffffff;
-    
+
 }
 
 .team-subtitle {
@@ -223,6 +206,10 @@ a:focus {
 
 .portfolio-section {
     background: #f4f4fd;
+}
+
+.portfolio-title {
+    color: #2e2f42;
 }
 
 .footer {
@@ -247,5 +234,5 @@ a:focus {
 .footer-text {
     line-height: 1.5;
     color: var(--color-light, #f4f4fd);
-    letter-spacing: 0.02em; 
+    letter-spacing: 0.02em;
 }
