@@ -22,7 +22,7 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #fff;
+    color: #2e2f42;
     text-align: center;
 }
 
@@ -203,11 +203,6 @@ a {
 
 .portfolio-section {
     background: #f4f4fd;
-}
-
-
-.portfolio-title {
-    color: #2e2f42;
 }
 
 
