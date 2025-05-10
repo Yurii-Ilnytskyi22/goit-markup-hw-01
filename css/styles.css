@@ -15,9 +15,7 @@ a {
     text-decoration: none;
 }
 
-.visually-hidden {
-    background: #fff;
-}
+
 
 .portfolio-title {
     font-size: 36px;
@@ -50,7 +48,6 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff;
 }
 
 .hero-button {
@@ -207,6 +204,12 @@ a {
 .portfolio-section {
     background: #f4f4fd;
 }
+
+
+.portfolio-title {
+    color: #2e2f42;
+}
+
 
 .portfolio-title {
     color: #2e2f42;
