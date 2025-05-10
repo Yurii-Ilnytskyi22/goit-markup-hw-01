@@ -2,39 +2,21 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background: #fff;
-}
-
-h1,h2,h3 {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-weight: 500;
     font-weight: 700;
 }
 
-h1 {
-    font-size: 56px;
-    line-height: 1.0;
-    
-}
-
-h2 {
-    font-size: 36px;
-    line-height: 1.1;
-}
-
-h3 {
-    font-size: 20px;
-    line-height: 1.2;
+ul {
+    list-style: none;
 }
 
 a {
-    color: #2e2f42;
     text-decoration: none;
 }
 
-a:hover,
-a:focus {
-    color: #404bbf;
+.visually-hidden {
+    background: #fff;  
 }
 
 .portfolio-title {
@@ -42,7 +24,7 @@ a:focus {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: #fff;
     text-align: center;
 }
 
@@ -61,14 +43,14 @@ a:focus {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #fff;
 }
 
 .portfolio-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455; }
+    color: #fff; }
 
 .hero-button {
     background-color: #4d5ae5;
@@ -144,8 +126,7 @@ a:focus {
     text-align: center;
 }
 
-.features-section {
-    background-color: #f4f4fd; }
+
 
 .features-list {
     list-style: none;
@@ -224,7 +205,9 @@ a:focus {
 .portfolio-section {
     background: #f4f4fd;
 }
-
+.portfolio-title {
+    color: #2e2f42;
+}
 .footer {
     background-color: #2e2f42;
 }
