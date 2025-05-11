@@ -2,9 +2,6 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background: #fff;
-    font-weight: 400;
-    font-weight: 500;
-    font-weight: 700;
 }
 
 ul {
@@ -23,6 +20,7 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    background-color: #fff;
     text-align: center;
 }
 
@@ -31,10 +29,7 @@ a {
     list-style: none;
 }
 
-.portfolio-item {
 
-    background: #fff;
-}
 
 .portfolio-subtitle {
     font-weight: 500;
@@ -193,6 +188,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
 }
 
 .team-description {
@@ -200,10 +196,11 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 .portfolio-section {
-    background: #f4f4fd;
+    background: #fff;
 }
 
 
