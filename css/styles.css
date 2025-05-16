@@ -2,6 +2,8 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -50,24 +52,24 @@ img {
    border-bottom: 1px solid #e7e9fc;
    width: 100%;
    margin: 24px 0;
-   padding-bottom: 24px;
+   padding: 24px 0;
 
 }
 
 .container {
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .menu {
     display: flex;
     gap: 40px;
     flex-direction: row;
     padding-left: 76px;
+    list-style: none;
     
 }
 
@@ -133,7 +135,7 @@ img {
 /* #endregion header */
 
 /* #region hero */
-.wrapper {
+.hero-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,16 +148,19 @@ img {
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
+    font-weight: 700;
     letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 48px;
     
 }
 
 .hero-button {
     background-color: #4d5ae5;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
@@ -175,6 +180,7 @@ img {
 .hero-section {
     background-color: #2e2f42;
     text-align: center;
+    padding: 188px 0;
     
 }
 
@@ -182,11 +188,14 @@ img {
 
 /* #region features */
 
+.features-section {
+    padding: 120px 0; 
+}
+
 .features-list {
     list-style: none;
     display: flex;
-    gap: 24px;
-
+    gap: 24px;     
 }
 
 .visually-hidden {
@@ -205,6 +214,7 @@ img {
     line-height: 1.2;
     padding: 32px 0;
     padding-top: 120px;
+    margin-bottom: 8px;
 }
 
 .feature-text {
@@ -220,6 +230,7 @@ img {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
@@ -250,6 +261,7 @@ img {
     background-color: #f4f4fd;
     padding-top: 120px;
     padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -259,6 +271,7 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 72px;
 }   
 
 .team-list {
@@ -273,12 +286,13 @@ img {
     background-color: #ffffff;
     flex-wrap: wrap;
     display: block;
-    flex-basis: calc((100%-24px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
+    padding: 32px 0;
     max-width: 264px;
     margin: 0 auto;
-    
+    text-align: center;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1);
     
     
 }
@@ -292,6 +306,7 @@ img {
     text-align: center;
     padding-top: 32px;
     padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-description {
@@ -309,6 +324,7 @@ img {
 
 .portfolio-section {
     background: #fff;
+    padding: 120px 0;
 }
 
 .portfolio-container{
@@ -334,6 +350,7 @@ img {
     text-align: center;
     padding-bottom: 72px;
     padding-top: 120px;
+    margin-bottom: 72px;
 }
 
 .portfolio-item {
@@ -343,8 +360,8 @@ img {
     border-right: 1px solid #e7e9fc;
     width: 360px;
     padding: 32px 16px;
-    flex-basis: calc((100%-24px) / 3);
-    
+    width: calc((100% - 48px) / 3);
+    background-color: #fff;
     
     
 }
@@ -353,7 +370,8 @@ img {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 48px 24px;
+    column-gap: 24px;
+    row-gap: 48px;
     padding-bottom: 111px;
     
 }
@@ -368,6 +386,7 @@ img {
     color: #2e2f42;
     padding: 32px 0;
     padding-bottom: 8px;
+    margin-bottom: 8px;
     
 }
 
@@ -378,6 +397,11 @@ img {
     color: #434455;
     
 }
+
+.app-info {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none; }
 
 
 /* #endregion portfolio */
@@ -418,13 +442,14 @@ img {
     letter-spacing: 0.02em;
     font-weight: 400;
     font-size: 16px;
-    max-width: 300px;
+    max-width: 264px;
+    line-height: 1.5;
     padding-top: 16px;
 }
 
 .footer {
     background-color: #2e2f42;
-    padding: 40px 20;
+    padding: 100px 0;
     padding-top: 100px;
     padding-bottom: 100px;
 }
