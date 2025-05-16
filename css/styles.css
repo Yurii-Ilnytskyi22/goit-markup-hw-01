@@ -58,9 +58,8 @@ img {
 .container {
     display: flex;
     width: 1158px;
-    margin: 0 auto;
     padding: 0 15px 0 15px;
-    
+    margin: 0 auto;
     
 }
 
@@ -454,10 +453,11 @@ img {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    display: inline-block;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    display: inline-block;
+    
     margin-bottom: 16px;
     
 }
