@@ -60,8 +60,7 @@ img {
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    
 }
 
 .main-nav {
@@ -72,9 +71,6 @@ img {
 .menu {
     display: flex;
     gap: 40px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
     
 }
 
@@ -115,14 +111,13 @@ img {
 
 .address-info {
     font-style: normal;
+    
 }
 
 .contact-list {
-    display: flex;
+    display: flex; 
     gap: 40px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+   list-style: none;
     
 }
 
@@ -212,7 +207,7 @@ img {
     margin: 0;     
 }
 
-.visually-hidden {
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -278,6 +273,11 @@ img {
     justify-content: center;
 }
 
+.team-container{
+    padding: 32px 0;
+
+}
+
 .team-section {
     background-color: #f4f4fd;
     padding: 120px 0;
@@ -308,7 +308,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
     padding: 32px 0;
     max-width: 264px;
@@ -351,7 +351,7 @@ img {
     padding: 120px 0;
 }
 
-.portfolio-container{
+.container{
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
@@ -380,10 +380,6 @@ img {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border: 1px solid #e7e9fc;
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1 px rgba(0, 0, 0, 0.1);
     padding: 32px 16px;
@@ -398,8 +394,10 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
     padding: 0;
     margin: 0;
+    width: calc((100% - 48px) / 3);
     
 }
 
@@ -428,6 +426,8 @@ img {
 
 .app-info {
     padding: 32px 0;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 
@@ -435,7 +435,7 @@ img {
 
 /* #region footer */
 
-.footer-container {
+.container {
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
