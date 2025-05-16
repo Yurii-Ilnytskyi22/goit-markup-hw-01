@@ -57,12 +57,9 @@ img {
 
 .container {
     display: flex;
-    width: 1158px;
     padding: 0 15px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin: 0 auto;
-    
+    width: 1158px;
 }
 
 .main-nav {
@@ -87,6 +84,7 @@ img {
     color: #4d5ae5;
     text-decoration: none;
     margin-right: 76px;
+    display: inline-block;
     
 }
 
