@@ -444,6 +444,7 @@ img {
 /* #region footer */
 
 .container {
+    display: inline-block;
     margin: 0 auto;
     padding: 0 15px;
     width: 1158px;
@@ -465,7 +466,7 @@ img {
     color: #4d5ae5;
     text-decoration: none;
     margin-bottom: 16px;
-    display: inline-block;
+    
 }
 
 .footer-logo-span {
