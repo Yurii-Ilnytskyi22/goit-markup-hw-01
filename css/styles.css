@@ -443,19 +443,6 @@ img {
 
 /* #region footer */
 
-.container {
-    
-    margin: 0 auto;
-    padding: 0 15px;
-    width: 1158px;
-}
-
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
-}
 
 
 .footer-logo {
