@@ -56,12 +56,15 @@ img {
 }
 
 .container {
-    display: flex;
     padding: 0 15px;
     margin: 0 auto;
     width: 1158px;
 }
 
+.header-container {
+    display: flex;
+
+}
 .main-nav {
     display: flex;
     align-items: center;
