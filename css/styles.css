@@ -56,7 +56,6 @@ img {
 }
 
 .container {
-    display: flex;
     padding: 0 15px;
     margin: 0 auto;
     width: 1158px;
@@ -138,7 +137,6 @@ img {
 
 /* #region hero */
 .container {
-    display: flex;
     padding: 0 15px;
     margin: 0 auto;
     width: 1158px
@@ -358,7 +356,6 @@ img {
 }
 
 .container{
-    display: flex;
     padding: 0 15px;
     margin: 0 auto;
     width: 1158px;
@@ -366,7 +363,6 @@ img {
 }
 
 .container-flex {
-    display: flex; 
     align-items: center;
     flex-direction: column;
     justify-content: center;
