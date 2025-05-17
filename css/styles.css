@@ -444,7 +444,7 @@ img {
 /* #region footer */
 
 .container {
-    display: inline-block;
+    display: flex;
     margin: 0 auto;
     padding: 0 15px;
     width: 1158px;
@@ -453,6 +453,7 @@ img {
 .footer-container {
     flex-direction: column;
     align-items: flex-start;
+    display: inline-block;
 }
 
 
