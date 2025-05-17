@@ -456,8 +456,7 @@ img {
 }
 
 
-.logo-link {
-    display: inline-block;
+.footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -467,7 +466,7 @@ img {
     color: #4d5ae5;
     text-decoration: none;
     margin-bottom: 16px;
-    
+    display: inline-block;
 }
 
 .footer-logo-span {
