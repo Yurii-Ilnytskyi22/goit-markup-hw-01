@@ -55,6 +55,8 @@ img {
 .header-container {
     display: flex;
     align-items: center;
+    width: 1158px;
+    padding: 0 15px;
 
 }
 .main-nav {
