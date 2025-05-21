@@ -465,7 +465,7 @@ img {
     justify-content: center;
 }
 
-.portfolio-item:hover .overlay {
+.portfolio-item:hover .anim-pictures {
     transform: translateY(0);
 }
 
