@@ -591,6 +591,16 @@ img {
     padding: 0 15px;
 }
 
+.social-list-footer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 0;
+    margin-top: 8px;
+    list-style: none;
+}
+
+
 
 .social-link-footer:hover,
 .social-link-footer:focus {
